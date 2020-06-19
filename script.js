@@ -5,7 +5,7 @@ function askName() {
 
 function addItem() {
     let itemName = document.querySelector("#item").value
-    let item = '<div id="item"><h1 id="item-name">'+ itemName +'</h1> <i class="fas fa-check-square"></i> <i class="fas fa-times"></i></div>'
+    let item = '<div id="doItem"><h1 id="item-name">'+ itemName +'</h1> <i class="fas fa-check-square"></i> <i class="fas fa-times"></i></div>'
     document.querySelector("#list").insertAdjacentHTML("afterbegin", item)
     document.querySelector("#item").value = ' '
 }
