@@ -12,11 +12,16 @@
     <header>
         <h1 id="title">Todo list: </h1>
     </header>
-    
+
     <div id="input">
-        <input type="text" name="item" id="item">
-        <button id="add"><i id="add-icon" class="fas fa-plus-square"></i></button>
+        <input type="text" name="item" id="item" autofocus>
+        <button id="add"><i onclick="addItem()" id="add-icon" class="fas fa-plus-square"></i></button>
     </div>
+
+    <div id="list">
+    
+    </div>
+
     <script src="./script.js"></script>
 </body>
 </html>
