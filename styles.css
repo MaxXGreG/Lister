@@ -1,9 +1,33 @@
 body {
-    background: #b92b27;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    margin-left: 40%;
+    background: #a8ff78;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-left: 44%;
     font-family: 'Poppins', sans-serif;
 }
 
+#title {
+    font-size:  3em;
+}
 
+#item {
+    font-size: 2em;
+    outline: none;
+}
+
+#add {
+    font-size: 3em;
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+#add-icon {
+    position: absolute;
+    margin-top: -35px;
+}
+
+#add-icon:hover {
+    opacity: .77;
+}
