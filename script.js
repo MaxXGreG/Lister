@@ -31,3 +31,9 @@ function complete(el) {
 function remove(el) {
     el.parentNode.remove()
 }
+
+document.querySelector('#item').addEventListener('keypress', (e)=> {
+    if(e.keyCode === 13) {
+        addItem()
+    }
+})
